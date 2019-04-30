@@ -1,2 +1,3 @@
 # falsePosition
-False Position algorithm to find roots of a given function
+## False Position algorithm to find roots of a given function
+ "falsePosition" is an algoritom created to estimate the root of a given function using the false positon method. The inputs are: func (the function being evaluated), xl (the lower guess), xu (the upper guess), es (the desired relative error (should default to 0.0001%)), and maxiter (the number of iterations desired (should default to 200)). The outputs are: root (the estimated root location), fx (the function evaluated at the root location), ea (the approximate relative error (%)), iter (how many iterations were performed).
